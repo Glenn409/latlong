@@ -25,8 +25,7 @@ module.exports = {
                     )
                     //sets distance meters to miles
                     distance =  (distance * 0.000621371) 
-                    console.log(store.name)
-                    console.log(distance)
+
                     //sets our closestStore 
                     if(closestStore.distance === null || distance < closestStore.distance){
                         closestStore.name = store.name
